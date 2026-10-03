@@ -1,0 +1,14 @@
+#folder that contains ctf-writeups that cant be public (RootMe ctfs, active HTB ctfs, running CTFs, and drafts
+
+private/
+
+#vpn configuration files for certain ctfs, could leak a private key
+
+*.ovpn
+
+#python cache
+__pycache__/
+
+#personal python virtual environment
+
+.venv/
